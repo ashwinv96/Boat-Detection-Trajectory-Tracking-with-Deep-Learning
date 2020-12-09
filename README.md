@@ -19,4 +19,6 @@ python3 main.py \
 The algorithm will run through every frame of the video and ouput detections to the terminal. Once completed, the detected trajectory will be saved in the directory into the file: <strong><em>interpolated_data.csv</em></strong>. The number of points in the trajectory will be equal to the argument <em>-n number_of_points_to_generate</em>.
 ## Visualize Output Trajectory 
 In order to view the output trajectory, we used the free website: <em>https://www.gpsvisualizer.com/</em>.
-![alt text](https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true)
+Ground Truth Trajectory             | Model Predicted Trajectory
+:-------------------------:|:-------------------------:
+<img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true"/>  | <img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true"/>
