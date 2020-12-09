@@ -21,4 +21,4 @@ The algorithm will run through every frame of the video and ouput detections to 
 In order to view the output trajectory, we used the free website: <em>https://www.gpsvisualizer.com/</em>.
 Ground Truth Trajectory             | Model Predicted Trajectory
 :-------------------------:|:-------------------------:
-<img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true"/>  | <img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true"/>
+<img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/gt.png?raw=true"/>  | <img src="https://github.com/ashwinv96/Boat-Trajectory-Tracking-without-Camera-Params/blob/master/pred.png?raw=true"/>
