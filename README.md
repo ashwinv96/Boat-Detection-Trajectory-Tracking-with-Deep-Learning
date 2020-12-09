@@ -1,4 +1,4 @@
-# Boat Trajectory Tracking without Camera Params using Deep Learning
+# Boat Trajectory Tracking with Deep Learning
 Tracking the trajectory of a target ship in GPS coordinates from a single video taken from a monocular camera with unknown camera intrinsic and extrinsic parameters. The first stage of the detector uses a custom trained YOLOv4 object detector. The trajectory is estimated through by learning a quadratic approximation to the cost function. 
 This project was our team's entry into the <em>AI Tracks at Sea</em> competition held by the US Navy.
 ## Team
@@ -17,3 +17,5 @@ python3 main.py \
 -lon source_longitude
 ```
 The algorithm will run through every frame of the video and ouput detections to the terminal. Once completed, the detected trajectory will be saved in the directory into the file: <strong><em>interpolated_data.csv</em></strong>. The number of points in the trajectory will be equal to the argument <em>-n number_of_points_to_generate</em>.
+## Visualize Output Trajectory 
+In order to view the output trajectory, we used the free website: <em>https://www.gpsvisualizer.com/</em>.
